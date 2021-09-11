@@ -6,11 +6,37 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main">
-
-    <TextView
-        android:layout_width="wrap_content"
+     <GridLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hello World!" />
+        android:id="@+id/gridLayout2">
+        <TextView
+            android:text="삼성전자"
+            android:textSize="50px"
+            android:textColor="@android:color/black"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/Textview1"
+            android:inputType="text" />
+
+        <TextView         
+            android:textSize="50px"
+            android:textColor="@android:color/black"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/Textview_Price"
+            android:inputType="text" />
+
+
+         <TextView  
+            android:textSize="50px"
+            android:textColor="@android:color/black"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:id="@+id/Textview_Percent"
+            android:inputType="text" />
+
+    </GridLayout>
+
 
 </RelativeLayout>
