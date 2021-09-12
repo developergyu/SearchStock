@@ -6,37 +6,384 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main">
-     <GridLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/gridLayout2">
+        android:id="@+id/gridLayout2"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <TextView
             android:text="삼성전자"
-            android:textSize="50px"
+            android:textSize="35px"
             android:textColor="@android:color/black"
-            android:layout_width="200px"
-            android:layout_height="200px"
+            android:layout_width="180px"
+            android:layout_height="50px"
             android:id="@+id/Textview1"
             android:inputType="text" />
-
-        <TextView         
-            android:textSize="50px"
+        <TextView
+            android:textSize="35px"
             android:textColor="@android:color/black"
-            android:layout_width="200px"
-            android:layout_height="200px"
-            android:id="@+id/Textview_Price"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsung_Price"
             android:inputType="text" />
-
-
-         <TextView  
-            android:textSize="50px"
+        <TextView
+            android:textSize="35px"
             android:textColor="@android:color/black"
-            android:layout_width="200px"
-            android:layout_height="200px"
-            android:id="@+id/Textview_Percent"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsung_Point"
             android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsung_Percent"
+            android:inputType="text" />
+        </GridLayout>
 
-    </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="삼성전자우"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview2"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsungwoo_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsungwoo_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Samsungwoo_Percent"
+            android:inputType="text" />
+        </GridLayout>
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="엘지생건"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview3"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggun_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggun_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggun_Percent"
+            android:inputType="text" />
+        </GridLayout>
 
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="엘지생건우"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview4"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggunwoo_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggunwoo_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGSanggunwoo_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="엘전우"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview5"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGjunjawoo_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGjunjawoo_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_LGjunjawoo_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="NAVER"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview6"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_NAVER_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_NAVER_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_NAVER_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="KAKAO"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview7"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KAKAO_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KAKAO_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KAKAO_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="SKT"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview8"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_SKT_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_SKT_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_SKT_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="KB금융"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview9"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KB_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KB_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_KB_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="하나금융"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview10"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Hana_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Hana_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_Hana_Percent"
+            android:inputType="text" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="F_ESG"
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview11"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="180px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_FESG_Price"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_FESG_Point"
+            android:inputType="text" />
+        <TextView
+            android:textSize="35px"
+            android:textColor="@android:color/black"
+            android:layout_width="300px"
+            android:layout_height="50px"
+            android:id="@+id/Textview_FESG_Percent"
+            android:inputType="text" />
+        </GridLayout>
+    </LinearLayout>
 </RelativeLayout>
